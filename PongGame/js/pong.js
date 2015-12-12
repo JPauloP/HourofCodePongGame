@@ -225,7 +225,7 @@ function AI(playerToControl) {
             currentState = State.FOLLOWING;
         }
 
-        repeat(0, randomAimAndFire,0 , 0);
+        repeat(0, randomAimAndFire, 0, 0);
         // SET randomMove 0, internal 0, numRepeats 0 ***************************************************************
     }
 
