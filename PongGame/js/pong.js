@@ -69,6 +69,7 @@ var Ball = function () {
             position[1] <= playerPosition[1] + player.getSize()) {
             console.log("Grabbed by player!");
             owner = player;
+            player.fire();
             // ADD player.fire(); ***************************************************************************************
         }
 
